@@ -22,10 +22,11 @@ body {
     justify-content: center;
     text-align: center;
     background-color: rgb(46, 58, 43);
-    border-radius: 25px;
+    border-radius: 8px;
+    border: 3px solid rgb(247, 242, 223);
     color: white;
     font-family: "Study", sans-serif;
-    display: inline-block;
+    display: flex;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -37,17 +38,12 @@ body {
     margin-bottom: 20px;
 }
 
-h1{
-    font-family: "Pixel", sans-serif;
-}
 
 .decoracao{
     background-image: url(assets/c9acfa1b277f905fe6f329f2274bcd3c.jpg);
     padding: 20px;
-    display: inline-block;
-    border: 5px solid rgb(17, 22, 15);
-    border-radius: 25px;
-    
+    border: 6px dotted rgb(17, 22, 15);
+    border-radius: 10px;
 }
 
 header{
@@ -57,13 +53,16 @@ header{
 
 nav{
     width: 150px;
-  height: 100vh;
+  height: auto;
   background-color: #303d23;
   color: white;
-  left: 0;  
-  top: 0;
-  padding: 10px;
-  margin-right: 10px;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 #painel{
@@ -74,4 +73,68 @@ nav{
     width: 100%;
     height: auto;
     border: 5px solid rgb(255, 255, 255);
+    margin: 5px;
+}
+.caixinha{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 5px solid rgb(91, 100, 64);
+    font-family: "Study", sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#campo{
+    display: flex;
+    pad: 10px;  
+}
+
+.hr1{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin: 10px 0;
+}
+
+.hr2{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(91, 100, 64);
+    border: none;
+    margin: 10px 0;
+}
+
+.caixinha2{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 5px solid rgb(91, 100, 64);
+    font-family: "Study", sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#lobo{
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.branco{
+    color: white;
+    font-family: "Pixel", sans-serif;
+}
+
+.verde{
+    color: rgb(91, 100, 64);
+    font-family: "Pixel", sans-serif;
 }
