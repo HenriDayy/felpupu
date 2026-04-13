@@ -16,7 +16,7 @@ body {
 }
 
 
-#apresentacao{
+.caixinha3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,7 @@ body {
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 10px;
 }
 
 #dog{
@@ -63,6 +64,7 @@ nav{
   flex-direction: column;
   padding: 15px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #painel{
@@ -86,9 +88,10 @@ nav{
     justify-content: center;
     text-align: center;
     border-radius: 8px;
+    margin: 10px;
 }
 
-#campo{
+.campo{
     display: flex;
     pad: 10px;  
 }
@@ -119,8 +122,8 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
     border-radius: 8px;
+    margin: 10px;
 }
 
 #lobo{
@@ -137,4 +140,35 @@ nav{
 .verde{
     color: rgb(91, 100, 64);
     font-family: "Pixel", sans-serif;
+}
+
+#border{
+    width: 150px;
+    height: auto;
+}
+
+#munsga{
+    background-color: rgb(91, 100, 64);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Pixel", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#lp{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#presente{  
+    background-color: rgb(247, 242, 223);
+    border: none;
+    padding: 10px 20px;
+    font-family: "Pixel", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }

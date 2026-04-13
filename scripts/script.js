@@ -1,6 +1,8 @@
-document.getElementById("musica").addEventListener("click", function() {
-    var audio = new Audio("assets/Surprise.mp3");
-    audio.play(URL("assets/hoobastank"));
-    audio.play("assets/Surprise.mp3");
-    audio.play("assets/pitty.mp3");
-});
+function playMusic() {
+    var audio = document.getElementById("audio");
+    audio.play();
+}
+
+function presente6() {
+    alert("Abre seu overwatch!");
+}
