@@ -8,6 +8,11 @@
     src: url("assets/Study\ Night.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "star";
+    src: url(assets/Starborn.otf);
+}
+
 body {
     background-image: url(assets/3e8fda5442054fa05518de543da08fbb.jpg);
     background-size: cover;
@@ -171,4 +176,21 @@ nav{
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.ships{
+    font-family: "star";
+}
+
+.nav-image {
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 5px 0;
+    display: block; /* MUITO importante */
+}
+
+footer{
+    background-image: url(assets/2231387tvz4j4u14a.png);
+    top: 0px;
 }
